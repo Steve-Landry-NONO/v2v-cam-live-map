@@ -1,2 +1,14 @@
-paho-mqtt==1.6.1
-scapy==2.5.0
+# Core MQTT
+paho-mqtt>=1.6.1
+
+# PCAP reading (Rendu 1 - raw producer)
+scapy>=2.5.0
+
+# PCAP dissection / CAM parsing (Rendu 2)
+# Requires tshark installed via: sudo apt install tshark
+pyshark>=0.6
+
+# Live map UI (Rendu 2)
+streamlit>=1.27.0
+folium>=0.14.0
+streamlit-folium>=0.15.0
